@@ -1,0 +1,36 @@
+Instalação
+
+Voce terá que criar um agent dialogflow
+e importar o arquivo zip Auto_Delivery
+---------------------------------------------------------------------
+Criar um projeto firebase para o banco de dados conectado ao seu projeto dialogflow
+Deixe as regras do projeto liberadas para leitura e gravação
+EX:
+{
+ 
+  "rules": {
+    ".read": true,
+    ".write": true,
+  }
+}
+----------------------------------------------------------------------------------------
+Editar o código com seu link do firebase
+
+Criar um nome qualquer que será sua ID
+substituir no código o termo autoDelivery pelo seu ID novo
+todas a correspondencias tem que ser substituidas
+---------------------------------------------------------------------------
+Solicitar a liberação dessa ID previamente no whatsapp 034999688677
+-----------------------------------------------------------------------------------
+Instalar o app Auto responder whatsapp e importar o arquivo json de seu agent dialogflow para ele
+------------------------------------------------------------------------------------------------------
+
+Observações 
+
+O bot só funciona se houver 5 categorias criadas mesmo que as mesmas estejam em branco no banco de dados
+
+Projeto voltado para hamburguerias,lanchonetes, 
+podendo ser adaptado para pizzarias ou outro seguimento sem garantias
+-----------------------------------------------------------------------------------------------------------
+#####Atenção esse projeto é beta
+pode haver falhas########
